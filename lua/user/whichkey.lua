@@ -95,6 +95,8 @@ local mappings = {
   },
   ["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
   ["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
+  ["v"] = { "<cmd>vsplit<CR>", "Vertical split" },
+  ["s"] = { "<cmd>split<CR>", "Horizontal split" },
 
   p = {
     name = "Packer",
@@ -159,7 +161,7 @@ local mappings = {
       "Workspace Symbols",
     },
   },
-  s = {
+  x = {
     name = "Search",
     b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
     c = { "<cmd>Telescope colorscheme<cr>", "Colorscheme" },
