@@ -94,6 +94,8 @@ local mappings = {
   ["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
   ["v"] = { "<cmd>vsplit<CR>", "Vertical split" },
   ["s"] = { "<cmd>split<CR>", "Horizontal split" },
+  ["r"] = { "<cmd>set wrap!<CR>", "Toggle wrap" },
+  ["R"] = { "<cmd>source %<CR>", "Source this file" },
 
   p = {
     name = "Packer",
