@@ -96,6 +96,8 @@ local mappings = {
   ["s"] = { "<cmd>split<CR>", "Horizontal split" },
   ["r"] = { "<cmd>set wrap!<CR>", "Toggle wrap" },
   ["R"] = { "<cmd>source %<CR>", "Source this file" },
+  ["H"] = { "<cmd>BufferLineMovePrev<CR>", "Move buffer left" },
+  ["L"] = { "<cmd>BufferLineMoveNext<CR>", "Move buffer right" },
 
   p = {
     name = "Packer",
