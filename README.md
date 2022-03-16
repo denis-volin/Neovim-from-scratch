@@ -56,6 +56,15 @@ Next we need to install python support (node is optional)
   ```
   npm i -g neovim
   ```
+
+- Russian language spell check support
+
+  ```
+  mkdir ~/.config/nvim/spell
+  cd ~/.config/nvim/spell
+  curl -LO http://ftp.vim.org/pub/vim/runtime/spell/ru.utf-8.spl
+  curl -LO http://ftp.vim.org/pub/vim/runtime/spell/ru.ascii.spl
+  ```
 ---
 
 **NOTE** make sure you have [node](https://nodejs.org/en/) installed, I recommend a node manager like [fnm](https://github.com/Schniz/fnm).

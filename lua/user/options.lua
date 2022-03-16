@@ -33,6 +33,7 @@ local options = {
   scrolloff = 8,                           -- minimal number of screen lines to keep above and below the cursor
   sidescrolloff = 8,                       -- the minimal number of screen columns to keep to the left and to the right of the cursor
   guifont = "monospace:h17",               -- the font used in graphical neovim applications
+  spelllang = "en,ru",                     -- set spell language to English and Russian
 }
 
 vim.opt.shortmess:append "c"

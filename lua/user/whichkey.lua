@@ -99,6 +99,7 @@ local mappings = {
   ["H"] = { "<cmd>BufferLineMovePrev<CR>", "Move buffer left" },
   ["L"] = { "<cmd>BufferLineMoveNext<CR>", "Move buffer right" },
   ["d"] = { "<cmd>Telescope oldfiles<CR>", "Recent files" },
+  ["S"] = { "<cmd>set spell!<CR>", "Toggle spell check" },
 
   p = {
     name = "Packer",
