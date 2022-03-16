@@ -16,7 +16,7 @@ null_ls.setup({
     formatting.stylua,
     formatting.shellharden,
     diagnostics.flake8.with({ extra_args = { "--ignore=E501" } }), -- ignore long lines
-    diagnostics.yamllint,
+    diagnostics.yamllint.with({ extra_args = { "-d rules: {line-length: {max: 180} }" } }),
     diagnostics.shellcheck,
   },
 })
