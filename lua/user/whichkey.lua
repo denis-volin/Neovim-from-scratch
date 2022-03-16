@@ -100,6 +100,7 @@ local mappings = {
   ["L"] = { "<cmd>BufferLineMoveNext<CR>", "Move buffer right" },
   ["d"] = { "<cmd>Telescope oldfiles<CR>", "Recent files" },
   ["S"] = { "<cmd>set spell!<CR>", "Toggle spell check" },
+  ["n"] = { "<cmd>set ft=yaml.ansible<CR>", "Set ft=ansible" },
 
   p = {
     name = "Packer",
