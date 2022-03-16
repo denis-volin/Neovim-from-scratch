@@ -46,18 +46,18 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Easily comment stuff
-  use "kyazdani42/nvim-web-devicons"
-  use "kyazdani42/nvim-tree.lua"
-  use "akinsho/bufferline.nvim"
-  use "moll/vim-bbye"
-  use "nvim-lualine/lualine.nvim"
-  use "akinsho/toggleterm.nvim"
-  use "ahmedkhalf/project.nvim"
-  use "lewis6991/impatient.nvim"
-  use "lukas-reineke/indent-blankline.nvim"
-  use "goolord/alpha-nvim"
+  use "kyazdani42/nvim-web-devicons" -- Icons for various plugins.
+  use "kyazdani42/nvim-tree.lua" -- A File Explorer For Neovim Written In Lua
+  use "akinsho/bufferline.nvim" -- A snazzy buffer line (with tabpage integration) for Neovim built using lua.
+  use "moll/vim-bbye" -- Bbye allows you to do delete buffers (close files) without closing your windows or messing up your layout.
+  use "nvim-lualine/lualine.nvim" -- A blazing fast and easy to configure Neovim statusline written in Lua.
+  use "akinsho/toggleterm.nvim" -- A neovim plugin to persist and toggle multiple terminals during an editing session
+  use "ahmedkhalf/project.nvim" -- all in one neovim plugin written in lua that provides superior project management.
+  use "lewis6991/impatient.nvim" -- Speed up loading Lua modules in Neovim to improve startup time.
+  use "lukas-reineke/indent-blankline.nvim" -- This plugin adds indentation guides to all lines (including empty lines).
+  use "goolord/alpha-nvim" -- fast and fully customizable greeter for neovim.
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
-  use "folke/which-key.nvim"
+  use "folke/which-key.nvim" -- displays a popup with possible key bindings of the command you started typing
 
   -- Colorschemes
   use "navarasu/onedark.nvim"
@@ -68,7 +68,7 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-path" -- path completions
   use "hrsh7th/cmp-cmdline" -- cmdline completions
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
-  use "hrsh7th/cmp-nvim-lsp"
+  use "hrsh7th/cmp-nvim-lsp" -- nvim-cmp source for neovim's built-in language server client
 
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine
