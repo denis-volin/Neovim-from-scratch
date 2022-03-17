@@ -34,6 +34,10 @@ local options = {
   sidescrolloff = 8,                       -- the minimal number of screen columns to keep to the left and to the right of the cursor
   guifont = "monospace:h17",               -- the font used in graphical neovim applications
   spelllang = "en,ru",                     -- set spell language to English and Russian
+  foldmethod = "expr",                     -- enable folding by expression
+  foldexpr = "nvim_treesitter#foldexpr()", -- use treesitter for folding
+  foldenable = false,                      -- don't fold on file open
+  foldlevel = 99,                          -- don't fold everything by default
 }
 
 vim.opt.shortmess:append "c"
