@@ -94,6 +94,10 @@ return packer.startup(function(use)
   -- Git
   use "lewis6991/gitsigns.nvim"
 
+  -- Markdown preview
+  use "ellisonleao/glow.nvim" -- A glow preview directly in your neovim buffer.
+  use "davidgranstrom/nvim-markdown-preview" -- Markdown preview in the browser using pandoc and live-server through Neovim's job-control API.
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
