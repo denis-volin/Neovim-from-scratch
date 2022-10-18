@@ -2,9 +2,11 @@ return {
   settings = {
 
     ansible = {
-      ansibleLint = {
-        arguments = '-x fqcn-builtins',
-      }
+      validation = {
+        lint = {
+          arguments = "-x fqcn-builtins",
+        },
+      },
     }
   },
 }
