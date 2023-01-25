@@ -58,6 +58,7 @@ return packer.startup(function(use)
   use "goolord/alpha-nvim" -- fast and fully customizable greeter for neovim.
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
   use "folke/which-key.nvim" -- displays a popup with possible key bindings of the command you started typing
+  use "windwp/nvim-spectre" -- a search panel to find and replace text
 
   -- Colorschemes
   use "navarasu/onedark.nvim"
