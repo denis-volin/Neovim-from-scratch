@@ -21,3 +21,11 @@ keymap("n", "<C-r>", ":call VSCodeNotify('redo')<CR>", opts)
 -- Indent lines
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
+
+-- Surround inside selection
+keymap("v", "\"", "xi\"\"<Esc>P", opts)
+keymap("v", "\'", "xi\'\'<Esc>P", opts)
+keymap("v", "(", "xi()<Esc>P", opts)
+keymap("v", ")", "xi()<Esc>P", opts)
+keymap("v", "{", "xi{}<Esc>P", opts)
+keymap("v", "}", "xi{}<Esc>P", opts)
