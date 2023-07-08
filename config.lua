@@ -96,19 +96,6 @@ lvim.builtin.nvimtree.setup.on_attach = custom_on_attach
 --                                            
 -- -----------------------------------------------------------------------------
 
--- Automatic filetype for Ansible files
--- vim.api.nvim_create_autocmd({"BufRead"}, {
---   pattern = {
---     "*playbook*.yml",
---     "*playbook*.yaml",
---     "playbooks/*.yml",
---     "playbooks/*.yaml",
---     "*/roles/*/tasks/*.yml",
---     "*/roles/*/tasks/*.yaml",
---   },
---   command = "set filetype=yaml.ansible",
--- })
-
 -- Automatic filetype for Jenkinsfiles
 vim.api.nvim_create_autocmd({"BufRead"}, {
   pattern = {
